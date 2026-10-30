@@ -1,0 +1,177 @@
+.welcome {
+    margin: 80px auto;
+    text-align: center;
+    max-width: 520px;
+    background: #fff;
+    border: 1px dashed #b9d5c9;
+    border-radius: 16px;
+    padding: 42px 30px;
+    color: #557168
+}
+
+.welcome h2 {
+    color: #173b30;
+    font-size: 23px;
+    margin: 0 0 12px
+}
+
+.welcome p {
+    font-size: 13px;
+    margin: 0 0 22px
+}
+
+.welcome .upload-button {
+    display: inline-block
+}
+
+.welcome.compact {
+    margin: 40px auto;
+    padding: 28px
+}
+
+.empty-workbook {
+    border: 1px dashed #b7d2c6;
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    color: #769087;
+    font-size: 12px
+}
+
+.notice, .error-notice {
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-top: 12px;
+    font-size: 12px
+}
+
+.notice {
+    background: #e5f4ed;
+    color: #227258
+}
+
+.error-notice {
+    background: #fff0ed;
+    color: #b5513b
+}
+
+.empty-copy {
+    color: #6d8279;
+    font-size: 13px
+}
+
+.preview-scroll {
+    overflow: auto;
+    max-height: 280px
+}
+
+.send-button:disabled {
+    opacity: .5;
+    cursor: not-allowed
+}
+
+.source-drawer table {
+    display: block;
+    overflow: auto;
+    max-height: 70vh
+}
+
+.source-drawer thead, .source-drawer tbody {
+    width: 100%
+}
+
+.preview-scroll td {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.sidebar .side-section {
+    margin-top: 5px
+}
+
+.conversation .analysis-card {
+    margin-top: 14px
+}
+
+.analysis-steps {
+    margin-top: 14px;
+    border-top: 1px solid #e5ece8;
+}
+
+.analysis-steps details {
+    border-bottom: 1px solid #e5ece8;
+    padding: 9px 0;
+    font-size: 12px;
+}
+
+.analysis-steps summary {
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+    cursor: pointer;
+    color: #315c4c;
+}
+
+.analysis-steps summary > span:first-child {
+    flex: 0 0 72px;
+    font-weight: 700;
+}
+
+.step-summary { color: #667b72; }
+.analysis-steps p { margin: 8px 0; color: #4c6259; }
+.analysis-steps code { display: block; overflow-x: auto; padding: 8px; background: #f4f7f5; }
+.step-table, .answer-markdown { overflow-x: auto; }
+.step-table table, .answer-markdown table { border-collapse: collapse; min-width: 280px; margin: 10px 0; }
+.step-table th, .step-table td, .answer-markdown th, .answer-markdown td {
+    border: 1px solid #dbe6e0;
+    padding: 7px 10px;
+    text-align: left;
+}
+.step-table th, .answer-markdown th { background: #f1f6f3; }
+.answer-markdown { font-size: 13px; line-height: 1.7; margin-top: 14px; }
+.answer-markdown p { margin: 8px 0; }
+
+.preview-bars {
+    display: grid;
+    gap: 13px;
+    padding: 20px 0
+}
+
+.preview-bar-row {
+    display: grid;
+    grid-template-columns:74px 1fr 48px;
+    gap: 9px;
+    align-items: center;
+    font-size: 11px;
+    color: #577268
+}
+
+.preview-bar-row i {
+    display: block;
+    height: 10px;
+    background: #e8f1ed;
+    border-radius: 9px;
+    overflow: hidden
+}
+
+.preview-bar-row i b {
+    display: block;
+    height: 100%;
+    background: #339777;
+    border-radius: 9px
+}
+
+.preview-bar-row strong {
+    text-align: right;
+    font-weight: 600
+}
+
+.evidence-content dl {
+    overflow-wrap: anywhere
+}
+
+.source-drawer {
+    overflow: auto
+}
